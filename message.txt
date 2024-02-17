@@ -1,1 +1,12 @@
 hello :);
+
+git commit -a -m 'msg';
+BEST WAY OF COMMITING
+
+git switch -c branchName
+git branch -D deleteMe
+
+Rename
+git branch -m branchName
+
+head references branch and each branch has a reference to last commit
