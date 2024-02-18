@@ -1,3 +1,65 @@
 hello :);
 
 donkey
+Unstaged changes
+git diff 
+
+@@ -3,4 +3,5 @@
+a,b
+start, lines extracted
+
+Changes since last commit
+git diff HEAD
+
+git diff --staged
+What will be included in commit
+
+git diff HEAD style/main.css
+
+git diff commit1..commit2
+
+git stash pop to get away from it
+staged and unstaged changes on git
+
+GIT STASH APPLY 
+- For applying changes in stash accross multiple branches
+
+You can have multiple stashes
+
+git stash list 
+you can then use git stash apply reference
+git stash pop 
+ 
+ drop for clearing stash
+
+ git satsh clear to clear all stashes
+
+<h1>UNDOING CHANGESSSS</h1>
+
+First git log --oneline
+Then 
+git checkout hash
+
+
+switch to branch to attach head
+Or create new branch 
+
+GO BACK ONE COMMIT
+git checkout HEAD~1
+
+GO BACK TWO COMMITS
+git checkout HEAD~2  
+
+To previous branch
+git switch - 
+
+REVERT CHANGES OF SINGLE FILE
+Revert back to last commit
+git checkout HEAD fileName fileName
+git checkout -- file file
+
+The same with git restore fileName
+
+To previous commit 
+git restore --source HEAD~1 fileName
+

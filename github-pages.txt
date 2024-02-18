@@ -1,0 +1,19 @@
+User site 1 per account
+Project sites unlimited.
+
+You can set up website hooked to another branch
+
+Work in 1 branch is impossible in team 
+
+All code is developed on another branch. 
+
+
+Develop on your branch, then merge on main branch and git push
+Or push your branch for colaboration
+
+You can first see contents of mate branch with:
+git checkout origin/branch
+
+git fetch for preview of changes checking checkout origin/branch
+
+git pull origin/branchName

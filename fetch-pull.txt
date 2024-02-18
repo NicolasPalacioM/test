@@ -1,0 +1,27 @@
+To checkout to remote branch
+git remote -r 
+Take reference then 
+
+git checkout remote/main
+
+Switch other branches from remote repo
+git switch branch
+with git checkout is different
+
+SPECIFY REMOTE FOR MULTIPLE REMOTE REPOS
+git fetch remote
+
+can be later left to merge when offline, possible
+
+you can checkout to those changes with command git checkout origin/main 
+
+/////////// GIT PULL
+git pull origin remoteBranch 
+
+After merge | push
+
+//// GISTS
+Piece of code to share
+
+///// Pull Requests
+Delete branch when you don't need it anymore

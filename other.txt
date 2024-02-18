@@ -1,0 +1,25 @@
+<h1>UNSTAGE FILE</H1>
+git restore --staged fileName
+
+Move to another commit 
+git reset
+REMOVES COMMITS -> But changes are still there
+
+TO REMOVE CHANGES AND COMMITS
+git reset--hard
+
+REVERT
+Makes new commit and there undoes changes from that commit
+
+/////////
+GIT REMOTE
+
+git remote -v
+
+/////
+CHANGE NAME OF REMOTE BRANCH CREATED WHEN PUSHING
+
+OR PUSH TO ANOTHER BRANCH INSTEAD OF THE ONE WITH THE NAME IN OUR MACHINE
+git push origin branch:remoteBranch
+
+Upstreams can be set for any branches a -> can
